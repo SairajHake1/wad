@@ -1,0 +1,9 @@
+Download MPJ Express from SourceForge site
+
+cmd 1:  export MPJ_HOME=(path of mpj folder)
+
+cmd 2:  export PATH=$MPJ_HOME/bin:$PATH
+
+cmd 3:  javac -cp $MPJ_HOME/lib/mpj.jar ScatterGather.java
+
+cmd 4:  $MPJ_HOME/bin/mpjrun.sh -np 4 ScatterGather 
